@@ -10,7 +10,7 @@ return(
     <>
     <div className="note" >
         <h1>
-           {props.title}
+       {props.title}
         </h1>
         <p>{props.content}</p>
         <Button onClick={DeleteItem} > <AiOutlineClose/> </Button>
